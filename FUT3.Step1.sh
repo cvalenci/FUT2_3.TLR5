@@ -7,7 +7,7 @@
 #$ -e FUT3.Step1.err
 ###############################
 mkdir -p ~/FUT3
-cd ~/FUT2
+cd ~/FUT3
 # download the data
 wget ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chr19.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz
 # remove indels and select region
