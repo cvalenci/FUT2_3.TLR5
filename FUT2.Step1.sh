@@ -1,7 +1,7 @@
 #!/bin/bash
 #$ -N FUT2.Step1
 #$ -l h_vmem=1.0G
-#$ -l h_rt=4-00:00:00
+#$ -l h_rt=1800
 #$ -cwd
 #$ -o FUT2.Step1.out
 #$ -e FUT2.Step1.err
